@@ -1,0 +1,84 @@
+body{
+    background-image: url("psp-play-playstation-joystick-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+h1 {
+    color: greenyellow;
+    font-size: 45px;
+}
+
+
+#b1, #b2, #b3, #b4, #b5, 
+#b6, #b7, #b8, #b9 {
+    width: 80px;
+    height: 52px;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+#but {
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: 1px solid orangered;
+    margin: auto;
+    border-radius: 4px;
+    font-family: Verdana, 
+        Geneva, Tahoma, sans-serif;
+
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+#print {
+    font-family: Verdana, 
+        Geneva, Tahoma, sans-serif;
+
+    color: blue;
+    font-size: 20px;
+}
+
+#main1{
+    width: 30%;
+    /* background-color: aquamarine; */
+}
+#main3{
+    width: 30%;
+    /* background-color: azure; */
+}
+
+#main2 {
+    text-align: center;
+    /* background-image: url(); */
+    background-color: rgba(0, 0, 0, 0.584);
+    height: 43rem;
+    width: 40%;
+}
+
+#ins {
+    font-family: Verdana, 
+        Geneva, Tahoma, sans-serif;
+          
+    color: greenyellow;
+    font-size: 17px;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    opacity: 10px ;
+    box-shadow: 10px;
+    color: greenyellow;
+  }
+  .player {
+    margin-right: 20px;
+padding: 15px;
+  }
