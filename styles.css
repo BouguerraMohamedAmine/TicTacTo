@@ -1,9 +1,10 @@
 body{
-    background-image: url("https://wallpapercave.com/wp/wp8984822.jpg");
-    background-size: cover;
+    background-image: url("psp-play-playstation-joystick-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 h1 {
-    color: orangered;
+    color: greenyellow;
     font-size: 45px;
 }
 
@@ -24,13 +25,13 @@ h1 {
     box-sizing: border-box;
     width: 95px;
     height: 40px;
-    border: 1px solid dodgerblue;
+    border: 1px solid orangered;
     margin: auto;
     border-radius: 4px;
     font-family: Verdana, 
         Geneva, Tahoma, sans-serif;
 
-    background-color: dodgerblue;
+    background-color: orangered;
     color: white;
     font-size: 20px;
     cursor: pointer;
@@ -39,21 +40,32 @@ h1 {
     font-family: Verdana, 
         Geneva, Tahoma, sans-serif;
 
-    color: dodgerblue;
+    color: blue;
     font-size: 20px;
 }
 
+#main1{
+    width: 30%;
+    /* background-color: aquamarine; */
+}
+#main3{
+    width: 30%;
+    /* background-color: azure; */
+}
 
-#main {
+#main2 {
     text-align: center;
-    background-image: src="";
+    /* background-image: url(); */
+    background-color: rgba(0, 0, 0, 0.584);
+    height: 43rem;
+    width: 40%;
 }
 
 #ins {
     font-family: Verdana, 
         Geneva, Tahoma, sans-serif;
           
-    color: dodgerblue;
+    color: greenyellow;
     font-size: 17px;
 }
 
@@ -64,6 +76,7 @@ h1 {
     font-size: 30px;
     opacity: 10px ;
     box-shadow: 10px;
+    color: greenyellow;
   }
   .player {
     margin-right: 20px;
