@@ -1,5 +1,5 @@
 body{
-    background-image: url("psp-play-playstation-joystick-wallpaper-preview.jpg");
+    background-image: url("picture/psp-play-playstation-joystick-wallpaper-preview.jpg");
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -11,23 +11,26 @@ h1 {
 
 #b1, #b2, #b3, #b4, #b5, 
 #b6, #b7, #b8, #b9 {
-    width: 80px;
-    height: 52px;
-    margin: auto;
-    border: 1px solid gray;
-    border-radius: 6px;
+    width: 100px;
+    height: 100px;
+    margin: 40;
+    margin-top: 10PX;
+    border: 1px solid rgba(9, 9, 9, 0.553);
+    border-radius: 10px;
     font-size: 30px;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.626);
+cursor:context-menu;
 }
 
 
 #but {
     box-sizing: border-box;
     width: 95px;
-    height: 40px;
-    border: 1px solid orangered;
-    margin: auto;
-    border-radius: 4px;
+    height: 50px;
+    border: 3px solid orangered;
+    margin: 15PX;
+    border-radius: 5px;
     font-family: Verdana, 
         Geneva, Tahoma, sans-serif;
 
@@ -50,12 +53,11 @@ h1 {
 }
 #main3{
     width: 30%;
-    /* background-color: azure; */
+    
 }
 
 #main2 {
     text-align: center;
-    /* background-image: url(); */
     background-color: rgba(0, 0, 0, 0.584);
     height: 43rem;
     width: 40%;
@@ -66,7 +68,7 @@ h1 {
         Geneva, Tahoma, sans-serif;
           
     color: greenyellow;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .scoreboard {
@@ -74,11 +76,12 @@ h1 {
     justify-content: center;
     margin-bottom: 20px;
     font-size: 30px;
-    opacity: 10px ;
-    box-shadow: 10px;
+    opacity: 25px ;
+    box-shadow: 20px;
     color: greenyellow;
   }
   .player {
     margin-right: 20px;
 padding: 15px;
+cursor: pointer;
   }
