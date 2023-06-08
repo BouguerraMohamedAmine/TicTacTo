@@ -93,3 +93,8 @@ a{
 padding: 15px;
 cursor: pointer;
   }
+  #img {
+    width: 150px;
+    position: initial;
+    display: flex;
+}
