@@ -49,11 +49,19 @@ cursor:context-menu;
 
 #main1{
     width: 30%;
-    /* background-color: aquamarine; */
+    color: white ;
+    font-size: 30px;
 }
 #main3{
     width: 30%;
-    
+    color: greenyellow;
+    text-align: center;
+    font-size:30px ;
+    align-content: flex-start;
+
+}
+a{
+    color: white;
 }
 
 #main2 {
